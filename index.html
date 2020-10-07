@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <title>Devices Hub</title>
+</head>
+<body>
+    <nav>
+        <h1>My Devices</h1>
+    </nav>
+    <form id="devicesForm">
+        <fieldset>
+        <label for="deviceName">Item Name</label>
+        <input type="text" name="" id="deviceName">
+        
+        <label for="deviceCategory">Device category</label>
+        <select type="" name="" id="deviceCategory">
+            <option value="mobile">Mobile</option>
+            <option value="laptop">Laptop</option>
+            <option value="tablet">Tablet</option>
+        </select>
+
+
+        <label for="quantity">Quantity</label>
+        <input type="number" name="" id="quantity">
+
+        <input type="submit" name="" id="submit">
+       
+    </fieldset>
+    </form>
+
+    <table id="toPurchaseTable">
+
+    </table>
+    <p id="totalPrice"></p>
+    <script src="app.js"></script>
+</body>
+</html>
